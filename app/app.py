@@ -126,10 +126,10 @@ def gen_frames():
             except:
                 pass
 
-            cv2.imshow('Raw Webcam Feed', image)
+            # cv2.imshow('Raw Webcam Feed', image)
 
-            if cv2.waitKey(10) & 0xFF == ord('q'):
-                break
+            # if cv2.waitKey(10) & 0xFF == ord('q'):
+            #     break
 
             else:
 
