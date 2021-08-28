@@ -21,7 +21,8 @@ Data Scientist\ Computer Scientist
 9. [Conclusions and Further Study](#conclusions-and-further-study)
 
 ## ABOUT Mediapipe
-It use BlazePose, a lightweight convolutional neural network architecture for human pose estimation that is tailored for real-time inference on computer or mobile devices.
+It use BlazePose, a lightweight convolutional neural network architecture for human pose estimation that is tailored for real-time inference on computer or mobile devices.<br>
+
 ![](image/3.jpg)
 
 ----
@@ -29,7 +30,9 @@ It use BlazePose, a lightweight convolutional neural network architecture for hu
 - Activity recognition.
 - Motion Capture and Augmented Reality.
 - Training robots.
-- Motion tracking for consoles.
+- Motion tracking for consoles.<br>
+
+
 ![](image/2.jpg)
 
 
@@ -41,22 +44,25 @@ Therefore, it is challenging for image processing models to identify the fine-gr
 ## The process
 Pose estimation utilizes pose and orientation to predict and track the location of a person or object. Accordingly, pose estimation allows programs to estimate spatial positions (“poses”) of a body in an image or video.
 Pose estimation operates by finding key points of a person or object. Taking a person, for example, the key points would be joints like the elbow, knees, wrists, etc. There are two types of pose estimation: multi pose and single pose. Single pose estimation is used to estimate the poses of a single object in a given scene, while multi-pose estimation is used when detecting poses for multiple objects.<br>
+
 ![](image/5.jpg)
 
 ----
 ## The result
-The BlazePose landmark model predicts the location of 33 pose landmarks.
+The BlazePose landmark model predicts the location of 33 pose landmarks.<br>
+
 ![](image/6.jpg)
 
 
 ## Demonstrate the post estimation prediction
 ### 1- Exercise repetitions counter
-After predictions the body joint could count the exercise repetitions and use text to speech to tell my how much repetitions I accomplish.
+After predictions the body joint could count the exercise repetitions and use text to speech to tell my how much repetitions I accomplish.<br>
+
 ![](image/8.jpg)
 
 
 ### 2- Emotions prediction
-The data set collected using the webcam to capture real time emotions and then I train several models like: Logistic Regression algorithm, Ridge Classifier algorithm, Random Forest algorithm, and Gradient Boosting Classifier, and good really good accuracy from all of them. The Model predicted the emotion in reall time sesuccfully which they are Happy, Sad, and Yay.
+The data set collected using the webcam to capture real time emotions and then I train several models like: Logistic Regression algorithm, Ridge Classifier algorithm, Random Forest algorithm, and Gradient Boosting Classifier, and good really good accuracy from all of them. The Model predicted the emotion in reall time sesuccfully which they are Happy, Sad, and Yay.<br>
 
 ![](image/9.jpg)
 
