@@ -18,7 +18,7 @@ Data Scientist\ Computer Scientist
    - [Emotion Prediction](#emotion-prediction)
 
 8. [Machine learning](#machine-learning)
-9. [Conclusions and Further Study](#conclusions-and-further-study)
+9. [Conclusions and Further Study](#conclusions)
 
 ## ABOUT Mediapipe
 It use BlazePose, a lightweight convolutional neural network architecture for human pose estimation that is tailored for real-time inference on computer or mobile devices.<br>
