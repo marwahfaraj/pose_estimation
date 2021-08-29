@@ -97,4 +97,4 @@ Diffrient machine learning algorithms implemented and used to predict on reall t
 
 
 ## Tools used
-![](image/12.jpg)
+<img src='image/12.jpg' width='400'/>
