@@ -58,18 +58,16 @@ The BlazePose landmark model predicts the location of 33 pose landmarks.<br>
 ### Exercise Repetitions Counter
 After predictions the body joint could count the exercise repetitions and use text to speech to tell my how much repetitions I accomplish.<br>
 
-![](image/8.jpg)
-
+<img src='image/8.jpg' width='100'/>
 
 ### Emotion Prediction
 The data set collected using the webcam to capture real time emotions and then I train several models like: Logistic Regression algorithm, Ridge Classifier algorithm, Random Forest algorithm, and Gradient Boosting Classifier, and good really good accuracy from all of them. The Model predicted the emotion in reall time sesuccfully which they are Happy, Sad, and Yay.<br>
 
-![](image/9.jpg)
+<img src='image/9.jpg' width='100'/>
 
-![](image/10.jpg)
+<img src='image/10.jpg' width='100'/>
 
-![](image/11.jpg)
-
+<img src='image/11.jpg' width='100'/>
 
 ----
 ## Machine Learning
