@@ -87,13 +87,16 @@ Diffrient machine learning algorithms implemented and used to predict on reall t
 
 ----
 ## Conclusions
-- I achieved single pose estimation with Mediapipe.
+- Anyone can use this tool while working out and stop counting anymore, the model will do it for you.
+
 
 
 ----
-## Further study
-- Add additional “features” such as face similarity in order to identify the person.
-- Deploy the model for emotion detection using AWS.
+## Further Study
+-Add more complex exercises like yoga poses.
+-Add  additional “features” such as face similarity in order to identify the person.
+-Deploy the model for emotion prediction using AWS.
+
 
 
 ## Tools used
