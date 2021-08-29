@@ -9,13 +9,13 @@ Data Scientist\ Computer Scientist
 ----
 # Table of Contents
 1. [About Mediapipe](#about-mediapipe)   
-2. [Use case](#use-case)
-3. [The challenges](#the-challenges)
-4. [The process](#the-process)
-5. [The result](#the-result)
-6. [Demonstrate the post estimation prediction](#demonstrate-the-post-estimation-prediction)
-   - [Exercise repetitions counter](#exercise-repetitions-counter)
-   - [Emotions prediction](#emotions-prediction)
+2. [Use Case](#use-case)
+3. [The Challenges](#the-challenges)
+4. [The Process](#the-process)
+5. [The Result](#the-result)
+6. [Demonstrate the Pose Estimation](#demonstrate-the-pose-estimation)
+   - [Exercise Repetitions Counter](#exercise-repetitions-counter)
+   - [Emotion Prediction](#emotion-prediction)
 
 8. [Machine learning](#machine-learning)
 9. [Conclusions and Further Study](#conclusions-and-further-study)
@@ -54,14 +54,14 @@ The BlazePose landmark model predicts the location of 33 pose landmarks.<br>
 ![](image/6.jpg)
 
 
-## Demonstrate the post estimation prediction
-### 1- Exercise repetitions counter
+## Demonstrate the Pose Estimation
+### Exercise Repetitions Counter
 After predictions the body joint could count the exercise repetitions and use text to speech to tell my how much repetitions I accomplish.<br>
 
 ![](image/8.jpg)
 
 
-### 2- Emotions prediction
+### Emotion Prediction
 The data set collected using the webcam to capture real time emotions and then I train several models like: Logistic Regression algorithm, Ridge Classifier algorithm, Random Forest algorithm, and Gradient Boosting Classifier, and good really good accuracy from all of them. The Model predicted the emotion in reall time sesuccfully which they are Happy, Sad, and Yay.<br>
 
 ![](image/9.jpg)
