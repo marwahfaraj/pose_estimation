@@ -93,9 +93,9 @@ Diffrient machine learning algorithms implemented and used to predict on reall t
 
 ----
 ## Further Study
--Add more complex exercises like yoga poses.
--Add  additional “features” such as face similarity in order to identify the person.
--Deploy the model for emotion prediction using AWS.
+- Add more complex exercises like yoga poses.
+- Add  additional “features” such as face similarity in order to identify the person.
+- Deploy the model for emotion prediction using AWS.
 
 
 
