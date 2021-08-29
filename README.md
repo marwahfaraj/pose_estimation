@@ -29,8 +29,8 @@ It use BlazePose, a lightweight convolutional neural network architecture for hu
 ## Use Case
 - Activity recognition.
 - Motion Capture and Augmented Reality.
-- Training robots.
-- Motion tracking for consoles.<br>
+- Training Robots.
+- Motion Tracking for Consoles.<br>
 
 
 ![](image/2.jpg)
