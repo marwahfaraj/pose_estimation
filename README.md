@@ -2,129 +2,101 @@
 ![](image/1.jpg)
 ----
 ## Marwah Faraj<br>
+Data Scientist\ Computer Scientist
 
 [Linkedin](https://www.linkedin.com/in/marwah-faraj) | [Github](https://github.com/marwahfaraj) | [E-mail](marwah.faraj777@gmail.com) |
-[Arabic tweets Dataset](https://www.kaggle.com/imranzaman5202/arabic-twitter-sentiment-analysis) |
-[Poject Presentation](https://docs.google.com/presentation/d/1d0JpkFl4v2SmU5rNBB0BBUtDjkcjWBKW0OpI3TrwZPw/edit#slide=id.ge29597d775_0_1)
+[Poject Presentation](https://docs.google.com/presentation/d/1S1Xb8fBqKUNDb3xKsfco8Vzp-51XqJ6JUad1r48WnaU/edit?usp=sharing)
 ----
 # Table of Contents
-1. [Background and Motivation](#background-and-motivation)
-2. [Data](#data)  
-    - [Description](#description)
-    - [Pipline](#pipline)  
-   
-5. [Exploration](#exploration)
-6. [Visualization](#visualization)
-7. [Machine Learning](#ml)
-8. [Conclusions](#conclusions)
-9. [Further Study](#further-study)
+1. [About Mediapipe](#about-mediapipe)   
+2. [Use case](#use-case)
+3. [The challenges](#the-challenges)
+4. [The process](#the-process)
+5. [The result](#the-result)
+6. [Demonstrate the post estimation prediction](#demonstrate-the-post-estimation-prediction)
+   - [Exercise repetitions counter](#exercise-repetitions-counter)
+   - [Emotions prediction](#emotions-prediction)
 
-## Background and Motivation
-Implementing sentiment analysis in Arabic Language. I’m using NLP (Natural Language Processing) to demonstrate that and Machine Learning Algorithms to classify whether the sentiment is positive or negative.
+8. [Machine learning](#machine-learning)
+9. [Conclusions and Further Study](#conclusions-and-further-study)
 
-----
-## Data
-This dataset consists of more than 56 thousand tweets in Arabic Language, and it is devided into 2 part, more than 28500 positive tweets and more than 28300 negative tweet, and it does not contain any null value.
+## ABOUT Mediapipe
+It use BlazePose, a lightweight convolutional neural network architecture for human pose estimation that is tailored for real-time inference on computer or mobile devices.<br>
 
-
-
-## Description
-# Arabic Script
-- Written right-to-left<br>
-- Letters have contextual variants<br>
-- Used to write many languages besides Arabic: Persian, Kurdish, Urdu, etc.<br>
-
-![](image/arabic.png)
-
-# The main challenges for Arabic Language Processing:
-- Orthographic ambiguity                         الابهام  الاملائي<br>
-- Morphological richness                           الغنى الصرفي<br>
-- Dialectal variation                              تعدد اللهجات
-- Orthographic inconsistency                     الاخطاء الاملائية
-- Resource poverty (data & tools)    فقر موارد البيانات والادوات
-- Limited research                         البحث العلمي المحدود
-
+![](image/3.jpg)
 
 ----
-## Pipline
-The pandas, numpy, NLTK library, machine learning: Multinomial Naive Bayes, Gaussian Naive Bayes, Ridge_classifier, Logstic Regression, Random Forest, deep learning: Multilayer perseptron/ Tenseorflow, keras,  matplotlib, and seaborn software libraries was used to examine, plot, analyze and classify this data.<br>
+## Use Case
+- Activity recognition.
+- Motion Capture and Augmented Reality.
+- Training robots.
+- Motion tracking for consoles.<br>
+
+
+![](image/2.jpg)
+
+
+## The challenges
+Human pose estimation is a challenging task as the body’s appearance joins changes dynamically due to diverse forms of clothes, arbitrary occlusion, occlusions due to the viewing angle, and background contexts.
+Therefore, it is challenging for image processing models to identify the fine-grained joint coordinates. It is especially difficult to track small and barely visible joints.
 
 ----
-## Exploration
-Noticed this dataset do not contian null values as shown in the dataset info, but noticed that it contains a lot of emojies. 
-After further exploration notice that there is english words and english numbers in the dataset, and the dataset is a balance data.
+## The process
+Pose estimation utilizes pose and orientation to predict and track the location of a person or object. Accordingly, pose estimation allows programs to estimate spatial positions (“poses”) of a body in an image or video.
+Pose estimation operates by finding key points of a person or object. Taking a person, for example, the key points would be joints like the elbow, knees, wrists, etc. There are two types of pose estimation: multi pose and single pose. Single pose estimation is used to estimate the poses of a single object in a given scene, while multi-pose estimation is used when detecting poses for multiple objects.<br>
 
-# visualization
-## The data status: Balance data
+![](image/5.jpg)
 
-![](image/balance_data.jpg)
+----
+## The result
+The BlazePose landmark model predicts the location of 33 pose landmarks.<br>
 
-The arabic people use the word ‘God’ a lot in their conversation and as shown the most common word is ‘God’
+![](image/6.jpg)
 
-![](image/postive_top_words.jpg)
 
-For the same reason the most common word in the negative tweets is ‘God’
+## Demonstrate the post estimation prediction
+### 1- Exercise repetitions counter
+After predictions the body joint could count the exercise repetitions and use text to speech to tell my how much repetitions I accomplish.<br>
 
-![](image/negative_top_words.jpg)
+![](image/8.jpg)
+
+
+### 2- Emotions prediction
+The data set collected using the webcam to capture real time emotions and then I train several models like: Logistic Regression algorithm, Ridge Classifier algorithm, Random Forest algorithm, and Gradient Boosting Classifier, and good really good accuracy from all of them. The Model predicted the emotion in reall time sesuccfully which they are Happy, Sad, and Yay.<br>
+
+![](image/9.jpg)
+
+![](image/10.jpg)
+
+![](image/11.jpg)
+
 
 ----
 ## Machine Learning
-Diffrient machine learning algorithms implemented and used to predict on unseed dataset to classify new tweet and give diffrint scores as detailed below:<br>
-1- Naive Bayes Algorithm:
-- Multinomial Naive Bayes Algorthim: <br>
-  Accuracy= 0.767<br>
-  Precision= 0.770<br>
-  Recall= 0.760<br>
-  F1= 0.770<br>
-- Gaussian Naive Bayes Algorthim: <br>
-  Accuracy= 0.741<br>
-  Precision= 0.830<br>
-  Recall= 0.610<br>
-  F1= 0.700<br>
-  
- 2- Ridge Classifier:<br>
-   Accuracy= 0.792<br>
-   Precision= 0.810<br>
-   Recall= 0.770<br>
-   F1= 0.790<br>
-   
- 3- LogisticRegression Algorithm:<br>
-    Accuracy= 0.790<br>
-    Precision= 0.820<br>
-    Recall= 0.750<br>
-    F1= 0.780<br>
+Diffrient machine learning algorithms implemented and used to predict on reall time emotions to classify the emotions and give diffrint scores as detailed below:<br>
+1- LogisticRegression:
+  Accuracy= 1.0<br>
+
+2- Ridge Classifier:<br>
+   Accuracy= 1.0
     
- 4- Random Foreset Algorthim:<br>
-     Accuracy= 0.677<br>
-     Precision= 0.780<br>
-     Recall= 0.490<br>
-     F1= 0.600<br>
+3- Random Foreset Algorthim:<br>
+     Accuracy= 1.0
      
-  ## Deep Learning
-  1- Multi layer perseptron:<br>
-    loos score= 0.4372<br>
-    Accuracy= 0.804<br>
-   
-   ![](image/mlp_cm.jpg)
-   
- The MLP model did not predict all the positive and negative tweets correctly, as it appeared in the graph, there are 974 negative tweet were predicted positive, also there are 1251 positive tweets were predicted negative.  
- 
- ## Machine Learning Algorithms comparison:
- 
- ![](image/model_comparision.jpg)
- 
- Nural Newtwork/ Multi layer perceptrone gave the higher accuracy score 80.4% but it is a time consuming to train, and for that Ridge classifier model took less time to train and gave a 79.2%.
- The MLP model is deployed in flask app to predict on new tweet and classify it weather it is positive or negative.
+4- GradientBoostingClassifier:<br>
+    Accuracy= 0.998<br>
+  
 
 ----
 ## Conclusions
-- Using deep learning by applying Multilayer Perceptron (MLP) in prediction gave the higher accuracy among the models 80.4%.<br>
-- Sentiment analysis is extremely useful in social media monitoring as it allows us to gain an overview of the wider public opinion behind certain topics, and monitor for toxic posts to warn and ban offending users.
+- I achieved single pose estimation with Mediapipe.
 
-  
+
 ----
 ## Further study
-- Consider emoji and how it could change the analysis.
-- Use Camel Tool Modules in preparing the text to use in machine learning Models. (Arabic Language specific library)
+- Add additional “features” such as face similarity in order to identify the person.
+- Deploy the model for emotion detection using AWS.
 
-![](image/n_wordcloud.jpg)
+
+## Tools used
+![](image/12.jpg)
