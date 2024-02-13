@@ -1,103 +1,97 @@
-# Pose estimation applications
-![](image/1.jpg)
-----
-## Marwah Faraj<br>
-Data Scientist\ Computer Scientist
+# Pose Estimation Applications
 
-[Linkedin](https://www.linkedin.com/in/marwah-faraj) | [Github](https://github.com/marwahfaraj) | [E-mail](marwah.faraj777@gmail.com) |
-[Poject Presentation](https://docs.google.com/presentation/d/1S1Xb8fBqKUNDb3xKsfco8Vzp-51XqJ6JUad1r48WnaU/edit?usp=sharing)
-----
+![Pose Estimation](image/1.jpg)
+
+---
+
+## Marwah Faraj
+Data Scientist | Computer Scientist
+
+[LinkedIn](https://www.linkedin.com/in/marwah-faraj) | [GitHub](https://github.com/marwahfaraj) | [Email](mailto:marwah.faraj777@gmail.com)
+
+[Project Presentation](https://docs.google.com/presentation/d/1S1Xb8fBqKUNDb3xKsfco8Vzp-51XqJ6JUad1r48WnaU/edit?usp=sharing)
+
+---
+
 # Table of Contents
 1. [About Mediapipe](#about-mediapipe)   
 2. [Use Case](#use-case)
-3. [The Challenges](#the-challenges)
-4. [The Process](#the-process)
-5. [The Result](#the-result)
-6. [Demonstrate the Pose Estimation](#demonstrate-the-pose-estimation)
+3. [Challenges](#challenges)
+4. [Process](#process)
+5. [Result](#result)
+6. [Demonstrate Pose Estimation](#demonstrate-pose-estimation)
    - [Exercise Repetitions Counter](#exercise-repetitions-counter)
    - [Emotion Prediction](#emotion-prediction)
+7. [Machine Learning](#machine-learning)
+8. [Conclusions](#conclusions)
+9. [Further Study](#further-study)
 
-8. [Machine learning](#machine-learning)
-9. [Conclusions and Further Study](#conclusions)
+## About Mediapipe
+Mediapipe utilizes BlazePose, a lightweight convolutional neural network architecture for real-time human pose estimation on computer or mobile devices.
 
-## ABOUT Mediapipe
-It use BlazePose, a lightweight convolutional neural network architecture for human pose estimation that is tailored for real-time inference on computer or mobile devices.<br>
+![Mediapipe](image/3.jpg)
 
-![](image/3.jpg)
+---
 
-----
 ## Use Case
-- Activity recognition.
-- Motion Capture and Augmented Reality.
-- Training Robots.
-- Motion Tracking for Consoles.<br>
+- Activity recognition
+- Motion capture and augmented reality
+- Training robots
+- Motion tracking for consoles
 
+![Use Case](image/2.jpg)
 
-![](image/2.jpg)
+## Challenges
+Human pose estimation faces challenges such as dynamic changes in appearance, occlusion, and background variations, making it difficult for image processing models to identify fine-grained joint coordinates.
 
+---
 
-## The challenges
-Human pose estimation is a challenging task as the body’s appearance joins changes dynamically due to diverse forms of clothes, arbitrary occlusion, occlusions due to the viewing angle, and background contexts.
-Therefore, it is challenging for image processing models to identify the fine-grained joint coordinates. It is especially difficult to track small and barely visible joints.
+## Process
+Pose estimation predicts and tracks spatial positions of a body or object by identifying key points such as joints. Two types include single and multi-pose estimation.
 
-----
-## The process
-Pose estimation utilizes pose and orientation to predict and track the location of a person or object. Accordingly, pose estimation allows programs to estimate spatial positions (“poses”) of a body in an image or video.
-Pose estimation operates by finding key points of a person or object. Taking a person, for example, the key points would be joints like the elbow, knees, wrists, etc. There are two types of pose estimation: multi pose and single pose. Single pose estimation is used to estimate the poses of a single object in a given scene, while multi-pose estimation is used when detecting poses for multiple objects.<br>
+![Process](image/5.jpg)
 
-![](image/5.jpg)
+---
 
-----
-## The result
-The BlazePose landmark model predicts the location of 33 pose landmarks.<br>
+## Result
+BlazePose landmark model predicts 33 pose landmarks.
 
-![](image/6.jpg)
+![Result](image/6.jpg)
 
+## Demonstrate Pose Estimation
 
-## Demonstrate the Pose Estimation
 ### Exercise Repetitions Counter
-After predictions the body joint could count the exercise repetitions and use text to speech to tell my how much repetitions I accomplish.<br>
+Predicted body joints count exercise repetitions and provide audio feedback.
 
-<img src='image/8.jpg' width='300'/>
+![Exercise Repetitions Counter](image/8.jpg)
 
 ### Emotion Prediction
-The data set collected using the webcam to capture real time emotions and then I train several models like: Logistic Regression algorithm, Ridge Classifier algorithm, Random Forest algorithm, and Gradient Boosting Classifier, and good really good accuracy from all of them. The Model predicted the emotion in reall time sesuccfully which they are Happy, Sad, and Yay.<br>
+Real-time webcam data used to train models (Logistic Regression, Ridge Classifier, Random Forest, Gradient Boosting) for emotion prediction (Happy, Sad, Yay).
 
-<img src='image/9.jpg' width='300'/>
+![Emotion Prediction](image/9.jpg)
+![Emotion Prediction](image/10.jpg)
+![Emotion Prediction](image/11.jpg)
 
-<img src='image/10.jpg' width='300'/>
+---
 
-<img src='image/11.jpg' width='300'/>
-
-----
 ## Machine Learning
-Diffrient machine learning algorithms implemented and used to predict on reall time emotions to classify the emotions and give diffrint scores as detailed below:<br>
-1- LogisticRegression:
-  Accuracy= 1.0<br>
+Various machine learning algorithms implemented to classify real-time emotions with high accuracy:
+1. Logistic Regression: Accuracy = 1.0
+2. Ridge Classifier: Accuracy = 1.0
+3. Random Forest Algorithm: Accuracy = 1.0
+4. Gradient Boosting Classifier: Accuracy = 0.998
 
-2- Ridge Classifier:<br>
-   Accuracy= 1.0
-    
-3- Random Foreset Algorthim:<br>
-     Accuracy= 1.0
-     
-4- GradientBoostingClassifier:<br>
-    Accuracy= 0.998<br>
-  
+---
 
-----
 ## Conclusions
-- Anyone can use this tool while working out and stop counting anymore, the model will do it for you.
+The tool enables users to track workout repetitions automatically, improving convenience during exercise routines.
 
+---
 
-
-----
 ## Further Study
-- Add more complex exercises like yoga poses.
-- Add  additional “features” such as face similarity in order to identify the person.
-- Deploy the model for emotion prediction using AWS.
+- Expand exercise repertoire to include yoga poses.
+- Integrate additional features like face recognition for identifying users.
+- Deploy emotion prediction model using AWS.
 
-
-
-## Tools used
-<img src='image/12.jpg' width='400'/>
+## Tools Used
+![Tools Used](image/12.jpg)
